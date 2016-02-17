@@ -14,6 +14,7 @@ namespace CI.Demo.Tests
             [Fact]
             public void ValidatesNameIsNotNull()
             {
+                //Test
                 Assert.Throws<ArgumentNullException>(() =>
                 {
                     new Demo.Feature(null);
