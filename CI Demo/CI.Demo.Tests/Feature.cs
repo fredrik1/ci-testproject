@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Should.Fluent;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,7 +14,7 @@ namespace CI.Demo.Tests
             [Fact]
             public void ValidatesNameIsNotNull()
             {
-                Assert.Throws(() =>
+                Assert.Throws<Exception>(() =>
                 {
                     new Demo.Feature(null);
                 });
@@ -22,7 +23,7 @@ namespace CI.Demo.Tests
             [Fact]
             public void ValidatesNameIsNotEmpty()
             {
-                Assert.Throws(() =>
+                Assert.Throws<Exception>(() =>
                 {
                     new Demo.Feature("");
                 });
