@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CI.Demo.Tests", "CI.Demo.Tests\CI.Demo.Tests.csproj", "{D8328674-03E8-47A4-A910-32329391DCFD}"
 EndProject
@@ -9,8 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CI.Demo", "CI.Demo\CI.Demo.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{929656FC-1875-4A7D-9A31-CE2455CC4A04}"
 	ProjectSection(SolutionItems) = preProject
+		.nuget\Microsoft.Build.dll = .nuget\Microsoft.Build.dll
 		.nuget\NuGet.Config = .nuget\NuGet.Config
 		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.mono.targets = .nuget\NuGet.mono.targets
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
